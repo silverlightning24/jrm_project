@@ -1,10 +1,10 @@
-# this is my first online project - freeze and slide ice!
-## I am making a game about a monster called Jack Frost. You play as a character who needs to cover the entire area in ice avoiding interaction with the monster.There are ladders and elevators to assist you which also need to be be covered by ice.
+# this is my first online project - ThroughMaze2House
+## I am making a game about a ginger bread man who has to clear a maze to reach his house.
 ## How to play?
-You play as a monster named Jack Frost. Your objective is to cover all the **platforms** and **ladders** in ice.
+You play as a ginger bread man. Your objective is to go through a maze to reach your house in limited time collecting the stated amount of milk bottles to open the lock of the house.There are obstacles on the way such as milk bottles that ask you questions thatmust be answered.
 
 ##details
-- there are elevators and ladders to assist you to move around.Those also have to be covered by ice too.
-- there are snowflakes as power-ups that help you cover more area with ice.
-- Jack frost can move up,down,left right and can jump.
-- If you jump on the enemies, they will freeze for 10 secs
+- There are milk bottles and chocolates on the way.You can collect them.
+- There are levels that get harder as you get further.
+- You fail and restart the level if you cannot complete the maze in the stated time.
+- The milk bottles are gaurded by milkmen that ask you questions.You have to answer questions to collect the bottles.You cannot pass if the answer is wrong.
