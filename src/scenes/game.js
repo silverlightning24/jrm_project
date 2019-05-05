@@ -1,13 +1,16 @@
 import { Scene } from "phaser"
 import { Fireboy } from "../sprites/fireboy";
+import { Enemy } from "../sprites/enemy"
 class Game extends Scene {
     constructor () {
         super ({
             key:"game",
             physics: {
-                default: "arcade"
+                default: "arcade",
+                arcade:{
+                    debug: false
             }
-        })
+        }})
         this.background = null
 
     }
@@ -25,10 +28,21 @@ create() {
             y: 500,
             texture: "Fireboy"
         }))
+
+
     }
+    this.spriteGroup.add(new Enemy({
+        scene: this,
+        x: 300,
+        y: 50,
+        texture: "bat"
+    }))
 }
 
-update() {
+update(time) {
+    let sprites = this.spriteGroup.children.entries
+    for(let i=0; i < sprites.length ; i++)
+        sprites[i].update(time)
 
 }
 
