@@ -1,0 +1,14 @@
+{ "columns":10,
+ "image":"kenney_holidaypack2016\/Tilesheet\/voxelPack_tilesheet@2.png",
+ "imageheight":640,
+ "imagewidth":640,
+ "margin":0,
+ "name":"mytileset",
+ "spacing":0,
+ "tilecount":100,
+ "tiledversion":"1.2.4",
+ "tileheight":64,
+ "tilewidth":64,
+ "type":"tileset",
+ "version":1.2
+}

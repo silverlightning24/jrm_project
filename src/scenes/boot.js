@@ -17,7 +17,8 @@ class Boot extends Scene {
         
         // this.load.image("funnywalk","./src/assets/Walking Sheet.png","./src/assets")
         this.load.atlasXML("spriteAtlas","./src/assets/jumperpack_kenney/Spritesheets/spritesheet_jumper.png","./src/assets/jumperpack_kenney/Spritesheets/spritesheet_jumper.xml")
-    }
+        this.load.tilemapTiledJSON("tiles,./src/assets/platforMap. json.json")
+    }   
     create() {
         this.scene.start("game")
     }

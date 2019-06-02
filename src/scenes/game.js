@@ -22,7 +22,8 @@ create() {
 
     this.background.setOrigin(0,0)
     this.background.setDisplaySize(window.innerWidth,window.innerHeight)
-    this.enemy = new Enemy({ scene : this, x : -10, y : 150, texture: "spriteAtlas", frame:"bunny1_walk1"})
+    this.enemy = new Enemy({ scene : this, x : 100, y : 570, texture: "spriteAtlas", frame:"bunny1_stand.png"})
+    this.enemy = new Enemy({ scene : this, x : 290, y : 570, texture: "spriteAtlas", frame:"spikeMan_walk1.png"})
 //     this.background = this.add.image(0,0,"background1")
 //     this.background.setOrigin(0,0)
 //     this.background.setDisplaySize(700,500)
